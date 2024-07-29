@@ -1,0 +1,45 @@
+.header {
+  height: 70vh;
+  background-image: url("https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZnVybml0dXJlfGVufDB8fDB8fHww");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  .container {
+    height: 100%;
+  }
+
+  .jumbotron {
+    background-color: #fef2e2;
+    padding: 30px;
+    margin-right: 30px;
+    max-width: 100%;
+
+    @media (max-width: 768px) {
+      margin: 0;
+      max-width: 100%;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 800;
+      color: #b68e34;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background-color: #b68e34;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

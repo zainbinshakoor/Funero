@@ -1,0 +1,19 @@
+<div class="container product-category">
+  <div class="text-center mb-4 mt-5">
+    <h2>Browse The Range</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="row">
+    <div
+      class="col-12 col-sm-6 col-md-4 mb-4"
+      *ngFor="let category of categories"
+    >
+      <div class="card border-0">
+        <img [src]="category.image" class="card-img-top" alt="Category Image" />
+        <div class="card-body text-center">
+          <h3>{{ category.name }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
